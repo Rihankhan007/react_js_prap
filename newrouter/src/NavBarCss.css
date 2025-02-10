@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   /* border: 1px solid #000; */
+    margin: 10px 10px;
+}
+.navlink{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    font-size: 18px;
+text-align: center;
+margin: 8px auto;
+font-weight: 600;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#home{
+    text-decoration: none;
+}
+#about{
+    text-decoration: none;
+}
+#contact{
+    text-decoration: none;
+}
+
+
+
+.red{ 
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    font-weight: 500;
+
+}
